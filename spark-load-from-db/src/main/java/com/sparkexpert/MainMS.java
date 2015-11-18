@@ -38,7 +38,7 @@ public class MainMS implements Serializable {
     private static final String SQLSERVER_DB = System.getenv("SQL_DB");
     private static final String SQLSERVER_TABLE = System.getenv("SQL_TABLE");
     private static final String SQLSERVER_CONNECTION_URL =
-            "jdbc:sqlserver://" + SQLSERVER_HOST_PORT + ";database=" + SQLSERVER_DB + ";user=" + SQLSERVER_USERNAME + ";password=" + SQL_PWD + ";encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+            "jdbc:sqlserver://" + SQLSERVER_HOST_PORT + ";database=" + SQLSERVER_DB + ";user=" + SQLSERVER_USERNAME + ";password=" + SQLSERVER_PWD + ";encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
     
     private static final String AWS_ACCESS_KEY_ID = System.getenv("AWS_ACCESS_KEY_ID");
     private static final String AWS_SECRET_ACCESS_KEY = System.getenv("AWS_SECRET_ACCESS_KEY");
